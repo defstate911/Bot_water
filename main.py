@@ -1,1 +1,2 @@
-print('Hello word')
+name = input('Введите свое имя ')
+print(name)
