@@ -3,8 +3,9 @@ import datetime
 import time
 import threading
 import random
+from config import TOKEN
 
-bot = telebot.TeleBot("Ваш токен")
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
